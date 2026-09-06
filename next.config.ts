@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
-/* Set by the Pages workflow to "/<repo>"; empty for local dev and for any
-   deploy that serves from a domain root. */
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+/* Empty for a root site (https://<org>.github.io/ or a custom domain), "/<repo>"
+   for a project site. The workflow passes whatever configure-pages reports.
+   Next rejects a bare "/", which is what that action emits for a root site, so
+   normalise it away rather than letting the build fail there. */
+const raw = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const basePath = raw === "/" ? "" : raw.replace(/\/$/, "");
 
 const nextConfig: NextConfig = {
   output: "export",

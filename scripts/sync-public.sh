@@ -16,7 +16,7 @@
 set -euo pipefail
 
 PUBLIC_REMOTE="public"
-PUBLIC_URL="https://github.com/OpenWAM-Official/openwam-website.git"
+PUBLIC_URL="https://github.com/OpenWAM-Official/OpenWAM-Official.github.io.git"
 PUBLIC_BRANCH="main"
 WORK_BRANCH="public-sync"
 

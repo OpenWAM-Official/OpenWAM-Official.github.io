@@ -7,6 +7,7 @@
  *
  * NEXT_PUBLIC_BASE_PATH is inlined at build time and empty everywhere else, so
  * `npm run dev` and any root-domain deploy are unaffected. */
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const raw = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const BASE = raw === "/" ? "" : raw.replace(/\/$/, "");
 
 export const asset = (path: string) => `${BASE}${path}`;

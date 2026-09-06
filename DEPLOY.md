@@ -9,8 +9,10 @@ URL appears on the run and in the repository's Environments.
 
 ## The base path
 
-A project site is served from `https://<org>.github.io/<repo>/`, not from a
-domain root. The workflow passes that prefix to the build as
+This repository is named `OpenWAM-Official.github.io`, so Pages serves it at
+the organisation root — `https://openwam-official.github.io/` — with no
+sub-path. The machinery below still exists because a differently-named repo
+would be served from `/<repo>/` instead. The workflow passes that prefix to the build as
 `NEXT_PUBLIC_BASE_PATH`, which feeds both Next's own `basePath` and the
 `asset()` helper in `src/lib/asset.ts` that every reference to a file in
 `public/` goes through. Locally the variable is unset, so `npm run dev` and
@@ -19,7 +21,7 @@ domain root. The workflow passes that prefix to the build as
 To check a subpath build without pushing:
 
 ```bash
-NEXT_PUBLIC_BASE_PATH=/openwam-website npm run build
+NEXT_PUBLIC_BASE_PATH=/some-repo npm run build
 ```
 
 ## Custom domain
