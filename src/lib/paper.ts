@@ -239,10 +239,13 @@ export const CLIP_BASE =
 
 /* Real-robot rollouts.
  *
- * Clips are 10s excerpts of the raw evaluation recordings, transcoded with
- * avconvert; the sources live outside the repo. Close-ups are split into
- * their own groups rather than mixed in with the standard views, because they
- * are a different kind of shot and read oddly side by side.
+ * Clips are the evaluation recordings at full length; the sources live outside
+ * the repo. Each is re-encoded at its native resolution with a capped bitrate,
+ * audio dropped, two-second keyframes so the scrubber can seek, and the moov
+ * atom moved to the front so a clip starts playing before it has finished
+ * downloading. Only fixed-camera views are shown — wrist cameras ride on the
+ * arm, and close-ups are a different kind of shot that reads oddly in a row of
+ * standard views.
  *
  * Aspect is per group: the RoboDojo rigs record 4:3, everything else 16:9.
  * A single grid aspect would crop the action out of frame. */
