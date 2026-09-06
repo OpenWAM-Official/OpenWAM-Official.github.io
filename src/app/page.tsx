@@ -3,6 +3,7 @@ import { asset } from "@/lib/asset";
 import type { CSSProperties } from "react";
 import HeroSplash from "@/components/HeroSplash";
 import ResourceButtons from "@/components/ResourceButtons";
+import OverviewVideo from "@/components/OverviewVideo";
 import RolloutGallery from "@/components/RolloutGallery";
 import PerformanceRadar from "@/components/PerformanceRadar";
 import AlphaSpec from "@/components/AlphaSpec";
@@ -145,6 +146,18 @@ export default function HomePage() {
           <p className="mt-5 text-[15px] leading-[1.75] text-foreground/90">
             {ABSTRACT}
           </p>
+        </div>
+      </section>
+
+      {/* ---- Overview film ---- */}
+      <section id="video" className="scroll-mt-28 border-t border-border py-14">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-center text-[13px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+            Video
+          </h2>
+          <div className="mt-7">
+            <OverviewVideo />
+          </div>
         </div>
       </section>
 

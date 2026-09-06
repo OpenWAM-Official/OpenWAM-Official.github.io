@@ -237,6 +237,14 @@ export const CITATION_PENDING = true;
 export const CLIP_BASE =
   "https://huggingface.co/datasets/OpenWAM/assets/resolve/main/rollouts";
 
+/* The overview film. Hosted alongside the clips rather than in the repo: at
+   44MB it is three times everything else in public/ put together, and Pages
+   would serve it on every deploy. */
+export const FILM = {
+  src: "https://huggingface.co/datasets/OpenWAM/assets/resolve/main/video/openwam-overview.mp4",
+  poster: "/videos/overview-poster.jpg",
+} as const;
+
 /* Real-robot rollouts.
  *
  * Clips are the evaluation recordings at full length; the sources live outside

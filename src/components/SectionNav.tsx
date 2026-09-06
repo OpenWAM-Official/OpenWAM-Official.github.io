@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
  * The page is around nine thousand pixels tall, so without this a reader can
  * neither see its shape nor jump within it. It sits below the navbar rather
  * than inside it: the bar already carries three items and has to drop two of
- * them on a phone, and six more would not fit.
+ * them on a phone, and seven more would not fit.
  *
  * Active section comes from IntersectionObserver rather than scroll maths —
  * with sections of very different heights (the abstract is a screen, the
@@ -16,6 +16,7 @@ import { useEffect, useState } from "react";
 
 const SECTIONS = [
   { id: "overview", label: "Overview" },
+  { id: "video", label: "Video" },
   { id: "findings", label: "Findings" },
   { id: "model", label: "Model" },
   { id: "benchmarks", label: "Benchmarks" },
@@ -80,7 +81,7 @@ export default function SectionNav() {
     >
       <div className="mx-auto max-w-6xl px-4">
         {/* marquee-scroller hides the scrollbar; the row scrolls on a phone,
-            where six labels do not fit across 375px. */}
+            where seven labels do not fit across 375px. */}
         <ul className="marquee-scroller flex items-center gap-0.5 overflow-x-auto py-1.5">
           {SECTIONS.map((s) => {
             const on = active === s.id;
