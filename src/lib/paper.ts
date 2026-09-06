@@ -58,11 +58,18 @@ export const AFFILIATIONS = [
     short: "CUHK",
     logo: "/data/institutions/cuhk.png",
   },
+  {
+    id: 7,
+    name: "Shanghai Jiao Tong University",
+    short: "SJTU",
+    logo: "/data/institutions/sjtu.png",
+  },
 ] as const;
 
-/* marks: * equal contribution, ‡ project lead, † equal advising */
+/* marks: * equal contribution, ‡ project lead, † equal advising.
+ * Order and affiliations follow the paper's author block exactly. */
 export const AUTHORS: { name: string; affs: number[]; marks?: string }[] = [
-  { name: "Yuran Wang", affs: [1, 3], marks: "*‡" },
+  { name: "Yuran Wang", affs: [1], marks: "*‡" },
   { name: "Siqiao Huang", affs: [2], marks: "*‡" },
   { name: "Mingleyang Li", affs: [3], marks: "*" },
   { name: "Chenhao Zhang", affs: [3], marks: "*" },
@@ -76,9 +83,10 @@ export const AUTHORS: { name: string; affs: number[]; marks?: string }[] = [
   { name: "Yuhan Rui", affs: [3] },
   { name: "Shenzhe Yao", affs: [2] },
   { name: "Zhen Yuan", affs: [4] },
-  { name: "Kefei Zhu", affs: [3] },
   { name: "Zhenhao Shen", affs: [3] },
+  { name: "Kefei Zhu", affs: [3] },
   { name: "Zijie Zhu", affs: [4] },
+  { name: "Ning Gao", affs: [7] },
   { name: "Xiaowei Chi", affs: [3] },
   { name: "Guanqi He", affs: [2] },
   { name: "Shanghang Zhang", affs: [3] },
