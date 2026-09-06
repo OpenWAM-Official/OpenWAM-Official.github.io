@@ -1,6 +1,7 @@
 "use client";
 
 import type { CSSProperties } from "react";
+import { asset } from "@/lib/asset";
 import { useEffect, useRef } from "react";
 
 import { CLIP_BASE } from "@/lib/paper";
@@ -59,7 +60,7 @@ function Tile({
         <video
           data-rollout-clip=""
           src={`${CLIP_BASE}/${clip.src}.mp4`}
-          poster={`/videos/posters/${clip.src}.jpg`}
+          poster={asset(`/videos/posters/${clip.src}.jpg`)}
           muted
           loop
           playsInline

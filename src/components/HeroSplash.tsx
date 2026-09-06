@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { asset } from "@/lib/asset";
 
 /**
  * Full-screen title-image splash shown on first load. It fades out (with a
@@ -55,7 +56,7 @@ export default function HeroSplash() {
       }`}
     >
       <img
-        src="/openwam-logo-long.png"
+        src={asset("/openwam-logo-long.png")}
         alt="OpenWAM"
         className="max-h-[45vh] w-auto max-w-[82vw] object-contain"
       />

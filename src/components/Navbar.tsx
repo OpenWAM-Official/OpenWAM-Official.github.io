@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 
 import { RESOURCE_LINKS } from "@/lib/resources";
 
@@ -24,7 +25,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-14 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/openwam-mark.png" alt="" className="h-7 w-7 shrink-0" />
+            <img src={asset("/openwam-mark.png")} alt="" className="h-7 w-7 shrink-0" />
             <span className="text-base font-semibold tracking-tight">
               OpenWAM
             </span>

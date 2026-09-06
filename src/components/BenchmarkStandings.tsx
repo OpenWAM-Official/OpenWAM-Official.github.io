@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { asset } from "@/lib/asset";
 
 import {
   BAR_WIDTH,
@@ -48,7 +49,7 @@ function Mark({ model, size }: { model: Model; size: number }) {
   if (model.logo) {
     return (
       <img
-        src={model.logo}
+        src={asset(model.logo)}
         alt=""
         style={{ height: size, width: "auto" }}
         className="object-contain"

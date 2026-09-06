@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://openwam-website.netlify.app"><img alt="Site" src="https://img.shields.io/badge/Site-openwam--website.netlify.app-527EEA?style=flat-square"></a>
+  <a href="https://openwam-official.github.io/openwam-website"><img alt="Site" src="https://img.shields.io/badge/Site-openwam--official.github.io-527EEA?style=flat-square"></a>
   <a href="https://github.com/OpenWAM-Official/OpenWAM"><img alt="Code" src="https://img.shields.io/badge/Code-OpenWAM-181717?style=flat-square&logo=github&logoColor=white"></a>
   <a href="https://huggingface.co/OpenWAM"><img alt="Models and data" src="https://img.shields.io/badge/%F0%9F%A4%97%20Models%20%26%20Data-OpenWAM-FFD21E?style=flat-square"></a>
 </p>

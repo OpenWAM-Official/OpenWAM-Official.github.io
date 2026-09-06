@@ -1,0 +1,55 @@
+name: Deploy to GitHub Pages
+
+# A project site is served from https://<org>.github.io/<repo>/, so the export
+# has to be built with that prefix — NEXT_PUBLIC_BASE_PATH feeds both Next's
+# own basePath and the `asset()` helper the markup uses for files in public/.
+# Without it every image resolves against the domain root and 404s.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it half-published.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - uses: actions/configure-pages@v5
+        id: pages
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      # Pages serves the artifact as-is and will not descend into a directory
+      # whose name starts with an underscore, which is where Next puts its
+      # bundles. .nojekyll turns that behaviour off.
+      - run: touch out/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

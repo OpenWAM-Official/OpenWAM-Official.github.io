@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 import type { CSSProperties } from "react";
 import HeroSplash from "@/components/HeroSplash";
 import ResourceButtons from "@/components/ResourceButtons";
@@ -32,7 +33,7 @@ function Title() {
     <div>
       <div className="flex items-center justify-center gap-3 sm:gap-4">
         <img
-          src="/openwam-mark.png"
+          src={asset("/openwam-mark.png")}
           alt=""
           className="h-11 w-11 shrink-0 sm:h-[54px] sm:w-[54px]"
         />
@@ -85,7 +86,7 @@ function AuthorList() {
                 squashes the wide lockups (HKU, CUHK) once their natural width
                 exceeds the cap. With object-contain they letterbox instead. */}
             <img
-              src={aff.logo}
+              src={asset(aff.logo)}
               alt={aff.name}
               title={aff.name}
               className="h-10 w-auto max-w-[170px] object-contain opacity-90 transition hover:opacity-100"
@@ -120,7 +121,7 @@ export default function HomePage() {
         <figure className="mx-auto mt-12 max-w-[1240px] px-4">
           <div className="overflow-x-auto rounded-lg border border-border bg-card p-3">
             <img
-              src="/figs/overview.png"
+              src={asset("/figs/overview.png")}
               alt="Overview of the OpenWAM stack: OpenWAM-Infra on the left, OpenWAM-Study in the middle, OpenWAM-α on the right."
               className="h-auto w-full min-w-[720px]"
             />
@@ -317,13 +318,13 @@ export default function HomePage() {
               that the fine print was gone. Full resolution is one click away. */}
           <figure className="mt-10">
             <a
-              href="/figs/architecture.png"
+              href={asset("/figs/architecture.png")}
               target="_blank"
               rel="noopener noreferrer"
               className="group block rounded-xl border border-border bg-card p-3 transition-colors hover:border-foreground/25"
             >
               <img
-                src="/figs/architecture.png"
+                src={asset("/figs/architecture.png")}
                 alt="OpenWAM-α: the dual-system architecture, the pretraining mixture, the timestep sampler, and the 80-D unified action space."
                 className="mx-auto h-auto max-h-[600px] w-auto max-w-full object-contain"
               />
