@@ -1,0 +1,266 @@
+{
+  "_source": "tables/*.tex at overleaf/main (commit 97ac9d6). One panel per simulation leaderboard; RoboTwin2.0 contributes two.",
+  "_metric": "Each panel reports that table's headline column, named under the title.",
+  "layout": {
+    "columns": 3,
+    "rows": 3,
+    "figsize": [
+      10.4,
+      5.8
+    ],
+    "slots": 6,
+    "bar_labels": true,
+    "row_bottoms": [
+      0.7663,
+      0.4565,
+      0.1467
+    ],
+    "row_height": 0.2278,
+    "legend_rect": [
+      0.014,
+      0.0048,
+      0.972,
+      0.0743
+    ],
+    "mark_size": 12.5,
+    "highlight_mark_size": 23.0,
+    "show_missing": false,
+    "fill": "column",
+    "axis": false,
+    "left": 0.014,
+    "column_gap": 0.03
+  },
+  "highlight": "openwam",
+  "inset": null,
+  "legend": [
+    "openwam",
+    "pi0",
+    "pi05",
+    "qwen_rm",
+    "starvla",
+    "x_vla",
+    "fast_wam",
+    "being_h07",
+    "lingbot_va"
+  ],
+  "models": [
+    {
+      "key": "openwam",
+      "label": "OpenWAM-$\\alpha$",
+      "short": "OpenWAM-$\\alpha$",
+      "kind": "ours",
+      "color": "#527EEA",
+      "logo": "openwam.png",
+      "badge": {
+        "text": "W",
+        "fill": "#527EEA"
+      },
+      "legend_mark_scale": 1.55
+    },
+    {
+      "key": "pi0",
+      "label": "$\\pi_0$",
+      "short": "$\\pi_0$",
+      "kind": "VLA",
+      "color": "#1F2933",
+      "logo": "pi0.svg",
+      "logo_color": "#1F2933",
+      "logo_paths": [
+        1
+      ],
+      "suffix": "0",
+      "suffix_scale": 0.4
+    },
+    {
+      "key": "pi05",
+      "label": "$\\pi_{0.5}$",
+      "short": "$\\pi_{0.5}$",
+      "kind": "VLA",
+      "color": "#1F2933",
+      "logo": "pi0.svg",
+      "suffix": "0.5",
+      "suffix_scale": 0.4,
+      "logo_paths": [
+        1
+      ],
+      "logo_color": "#1F2933"
+    },
+    {
+      "key": "qwen_rm",
+      "label": "Qwen-RobotManip",
+      "short": "Qwen-RM",
+      "kind": "VLA",
+      "color": "#6A4BE0",
+      "logo": "qwen.png",
+      "badge": {
+        "text": "Q",
+        "fill": "#6A4BE0"
+      }
+    },
+    {
+      "key": "starvla",
+      "label": "StarVLA",
+      "short": "StarVLA",
+      "kind": "VLA",
+      "color": "#203864",
+      "logo": "starvla.svg",
+      "badge": {
+        "text": "SV",
+        "fill": "#C7801F"
+      }
+    },
+    {
+      "key": "fast_wam",
+      "label": "Fast-WAM",
+      "short": "Fast-WAM",
+      "kind": "WAM",
+      "color": "#7A1F73",
+      "logo": "fast-wam.svg"
+    },
+    {
+      "key": "x_vla",
+      "label": "X-VLA",
+      "short": "X-VLA",
+      "kind": "VLA",
+      "color": "#B23A2E",
+      "logo": "x-vla.svg",
+      "badge": {
+        "text": "X",
+        "fill": "#B23A2E"
+      }
+    },
+    {
+      "key": "being_h07",
+      "label": "Being-H0.7",
+      "short": "Being-H0.7",
+      "kind": "WAM",
+      "color": "#A9581B",
+      "logo": "being.png",
+      "badge": {
+        "text": "B",
+        "fill": "#A9581B"
+      }
+    },
+    {
+      "key": "lingbot_va",
+      "label": "LingBot-VA",
+      "short": "LingBot-VA",
+      "kind": "WAM",
+      "color": "#4F7A1F",
+      "logo": "lingbot.svg",
+      "badge": {
+        "text": "L",
+        "fill": "#4F7A1F"
+      },
+      "logo_color": "#3730C8"
+    }
+  ],
+  "panels": [
+    {
+      "title": "LIBERO",
+      "decimals": 1,
+      "scores": {
+        "openwam": 99.3,
+        "pi05": 96.9,
+        "qwen_rm": 99.2,
+        "fast_wam": 97.6,
+        "starvla": 96.6,
+        "x_vla": 98.1,
+        "being_h07": 99.2,
+        "lingbot_va": 98.5,
+        "pi0": 94.4
+      }
+    },
+    {
+      "title": "RoboTwin2.0-Full",
+      "decimals": 2,
+      "scores": {
+        "openwam": 93.6,
+        "pi05": 79.75,
+        "qwen_rm": 93.85,
+        "fast_wam": 91.85,
+        "starvla": 88.25,
+        "x_vla": 72.82,
+        "lingbot_va": 92.24
+      }
+    },
+    {
+      "title": "LIBERO-plus",
+      "decimals": 1,
+      "scores": {
+        "openwam": 69.2,
+        "pi05": 84.4,
+        "qwen_rm": 89.0,
+        "fast_wam": 51.5,
+        "starvla": 74.1,
+        "being_h07": 82.1,
+        "pi0": 53.6
+      }
+    },
+    {
+      "title": "RoboTwin2.0-Clean2Random",
+      "decimals": 1,
+      "scores": {
+        "openwam": 69.0,
+        "pi05": 58.4,
+        "qwen_rm": 77.1,
+        "fast_wam": 39.9,
+        "starvla": 24.9,
+        "x_vla": 44.5
+      }
+    },
+    {
+      "title": "EBench",
+      "decimals": 1,
+      "scores": {
+        "openwam": 49.4,
+        "pi05": 27.1,
+        "qwen_rm": 45.6,
+        "fast_wam": 4.7,
+        "x_vla": 23.7,
+        "pi0": 23.6
+      }
+    },
+    {
+      "title": "RoboCasa-GR1",
+      "decimals": 1,
+      "scores": {
+        "openwam": 60.5,
+        "pi05": 37.0,
+        "starvla": 48.8,
+        "being_h07": 49.2,
+        "pi0": 13.6
+      }
+    },
+    {
+      "title": "RoboCasa365",
+      "decimals": 1,
+      "scores": {
+        "openwam": 38.2,
+        "pi05": 16.9,
+        "qwen_rm": 35.9,
+        "pi0": 15.0
+      }
+    },
+    {
+      "title": "RoboDojo",
+      "decimals": 2,
+      "scores": {
+        "openwam": 11.92,
+        "pi05": 6.91,
+        "fast_wam": 2.03,
+        "x_vla": 6.52
+      }
+    },
+    {
+      "title": "VLABench",
+      "decimals": 1,
+      "scores": {
+        "openwam": 58.9,
+        "pi05": 48.1,
+        "pi0": 29.4
+      }
+    }
+  ],
+  "_order": "Panels are sorted from the fullest leaderboard to the sparsest and laid out column-major, so each column groups benchmarks with a similar number of reported baselines and the columns thin out left to right."
+}

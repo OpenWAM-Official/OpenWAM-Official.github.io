@@ -1,0 +1,35 @@
+# Netlify deploys the static export directly from `out/`, so the private
+# GitHub repository never needs to be connected to Netlify at all:
+#
+#     npm run build
+#     npx netlify-cli deploy --prod --dir=out
+#
+# `next build` with output: "export" writes a flat tree — index.html,
+# results.html, 404.html — which Netlify serves at /, /results and as the
+# not-found page without further routing rules.
+
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# The rollout clips are fetched from the OpenWAM/assets dataset on Hugging
+# Face, so the site itself stays small; nothing here proxies them.
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/figs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

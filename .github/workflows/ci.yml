@@ -1,0 +1,25 @@
+name: Build
+
+# The site is deployed from Netlify, straight out of `out/`, so nothing here
+# publishes. This only checks that the export still builds and type-checks —
+# which is what a pull request needs to know.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npx eslint src
+      - run: npm run build

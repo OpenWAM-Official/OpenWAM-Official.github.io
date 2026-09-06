@@ -1,0 +1,205 @@
+.pillarCard,
+.findingCard {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition:
+    transform 360ms cubic-bezier(0.2, 0.75, 0.2, 1),
+    border-color 360ms ease,
+    box-shadow 360ms ease;
+}
+
+.pillarCard::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at 82% 8%,
+      color-mix(in srgb, var(--card-accent) 14%, transparent) 0,
+      transparent 48%
+    ),
+    linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--card-accent) 7%, transparent),
+      transparent 58%
+    );
+  content: "";
+  opacity: 0;
+  transition: opacity 360ms ease;
+}
+
+.pillarCard::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: var(--card-accent);
+  content: "";
+  transform: scaleX(0.34);
+  transform-origin: left;
+  transition: transform 420ms cubic-bezier(0.2, 0.75, 0.2, 1);
+}
+
+.pillarIndex {
+  color: color-mix(in srgb, var(--card-accent) 74%, transparent);
+  transition:
+    color 320ms ease,
+    transform 420ms cubic-bezier(0.2, 0.75, 0.2, 1);
+}
+
+.pillarFact {
+  transition:
+    color 280ms ease,
+    border-color 280ms ease,
+    background-color 280ms ease,
+    transform 320ms cubic-bezier(0.2, 0.75, 0.2, 1);
+  transition-delay: calc(var(--fact-index) * 28ms);
+}
+
+.pillarFactDot {
+  height: 4px;
+  width: 4px;
+  flex: none;
+  border-radius: 999px;
+  background: var(--card-accent);
+  opacity: 0;
+  transform: scale(0);
+  transition:
+    opacity 240ms ease,
+    transform 320ms cubic-bezier(0.2, 0.75, 0.2, 1);
+  transition-delay: calc(var(--fact-index) * 28ms);
+}
+
+.findingCard::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background: var(--accent);
+  content: "";
+  transform: scaleY(0.2);
+  transform-origin: center;
+  transition: transform 420ms cubic-bezier(0.2, 0.75, 0.2, 1);
+}
+
+.findingCard::after {
+  position: absolute;
+  z-index: -1;
+  right: 18px;
+  bottom: -42px;
+  color: var(--accent);
+  content: attr(data-finding-number);
+  font-family: var(--font-geist-mono);
+  font-size: 118px;
+  font-weight: 650;
+  line-height: 1;
+  opacity: 0;
+  transform: translate3d(16px, 12px, 0) scale(0.94);
+  transition:
+    opacity 360ms ease,
+    transform 480ms cubic-bezier(0.2, 0.75, 0.2, 1);
+}
+
+.findingLabel,
+.findingQuestion,
+.findingBody {
+  transition:
+    color 300ms ease,
+    transform 380ms cubic-bezier(0.2, 0.75, 0.2, 1);
+}
+
+.findingPulse {
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 32%, transparent);
+  transition:
+    transform 300ms ease,
+    box-shadow 420ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pillarCard:hover {
+    border-color: color-mix(in srgb, var(--card-accent) 35%, var(--border));
+    box-shadow:
+      0 20px 44px -28px color-mix(in srgb, var(--card-accent) 54%, transparent),
+      0 14px 30px -24px rgb(15 23 42 / 40%);
+    transform: translateY(-6px);
+  }
+
+  .pillarCard:hover::before {
+    opacity: 1;
+  }
+
+  .pillarCard:hover::after {
+    transform: scaleX(1);
+  }
+
+  .pillarCard:hover .pillarIndex {
+    color: var(--card-accent);
+    transform: translate3d(-3px, 2px, 0) scale(1.08);
+  }
+
+  .pillarCard:hover .pillarFact {
+    border-color: color-mix(in srgb, var(--card-accent) 28%, var(--border));
+    background: color-mix(in srgb, var(--card-accent) 8%, white);
+    color: color-mix(in srgb, var(--card-accent) 76%, var(--foreground));
+    transform: translateY(-2px);
+  }
+
+  .pillarCard:hover .pillarFactDot {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+
+  .findingCard:hover {
+    border-color: color-mix(in srgb, var(--accent) 32%, var(--border));
+    box-shadow: 0 18px 42px -30px color-mix(in srgb, var(--accent) 58%, transparent);
+    transform: translate3d(6px, -2px, 0);
+  }
+
+  .findingCard:hover::before {
+    transform: scaleY(1);
+  }
+
+  .findingCard:hover::after {
+    opacity: 0.055;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  .findingCard:hover .findingLabel {
+    transform: translateX(4px);
+  }
+
+  .findingCard:hover .findingQuestion {
+    color: var(--foreground);
+    transform: translateX(7px);
+  }
+
+  .findingCard:hover .findingBody {
+    transform: translateX(4px);
+  }
+
+  .findingCard:hover .findingPulse {
+    box-shadow: 0 0 0 6px transparent;
+    transform: scale(1.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pillarCard,
+  .pillarCard::before,
+  .pillarCard::after,
+  .pillarIndex,
+  .pillarFact,
+  .pillarFactDot,
+  .findingCard,
+  .findingCard::before,
+  .findingCard::after,
+  .findingLabel,
+  .findingQuestion,
+  .findingBody,
+  .findingPulse {
+    transition-duration: 0.01ms;
+  }
+}

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --muted: #f7f7f8;
+  --muted-foreground: #6e6e80;
+  --border: #e5e5e5;
+  --primary: #0d0d0d;
+  --primary-foreground: #ffffff;
+  --accent: #10a37f;
+  --accent-foreground: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Prose styling for task descriptions */
+.prose {
+  line-height: 1.7;
+}
+.prose h1, .prose h2, .prose h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.prose code {
+  font-size: 0.875em;
+  background: var(--muted);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+/* Marquee component (src/components/Marquee.tsx) drives auto-scroll via
+   requestAnimationFrame on a native overflow-x-auto strip so it doubles as a
+   touch-/drag-scrollable surface. Hide the cosmetic horizontal scrollbar. */
+.marquee-scroller::-webkit-scrollbar { display: none; }
+.marquee-scroller { scrollbar-width: none; -ms-overflow-style: none; }

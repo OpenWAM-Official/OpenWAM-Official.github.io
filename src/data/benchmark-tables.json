@@ -1,0 +1,6644 @@
+{
+ "_source": "tables/*.tex in the OpenWAM paper repository",
+ "simulation": [
+  {
+   "id": "libero",
+   "title": "LIBERO",
+   "caption": "Evaluation Results on LIBERO. Bold denotes best values, underline second best.",
+   "columns": [
+    "Spatial",
+    "Object",
+    "Goal",
+    "Long",
+    "Avg"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "OpenVLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "84.7",
+         "value": 84.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.4",
+         "value": 88.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "79.2",
+         "value": 79.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.7",
+         "value": 53.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "76.5",
+         "value": 76.5,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀",
+       "ours": false,
+       "cells": [
+        {
+         "text": "98.0",
+         "value": 98.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.8",
+         "value": 96.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "94.4",
+         "value": 94.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.4",
+         "value": 88.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "94.4",
+         "value": 94.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "StarVLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "97.8",
+         "value": 97.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.6",
+         "value": 98.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.2",
+         "value": 96.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.8",
+         "value": 93.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.6",
+         "value": 96.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "98.8",
+         "value": 98.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.2",
+         "value": 98.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.0",
+         "value": 98.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "92.4",
+         "value": 92.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.9",
+         "value": 96.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GR00T-N1.6",
+       "ours": false,
+       "cells": [
+        {
+         "text": "97.7",
+         "value": 97.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.5",
+         "value": 98.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.5",
+         "value": 97.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "94.4",
+         "value": 94.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.0",
+         "value": 97.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenVLA-OFT",
+       "ours": false,
+       "cells": [
+        {
+         "text": "97.6",
+         "value": 97.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.4",
+         "value": 98.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.9",
+         "value": 97.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "94.5",
+         "value": 94.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.1",
+         "value": 97.1,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "X-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "98.2",
+         "value": 98.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.6",
+         "value": 98.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.8",
+         "value": 97.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.6",
+         "value": 97.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.1",
+         "value": 98.1,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0",
+       "ours": false,
+       "cells": [
+        {
+         "text": "98.8",
+         "value": 98.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.8",
+         "value": 99.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "99.0",
+         "value": 99.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.6",
+         "value": 96.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.6",
+         "value": 98.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Being-H0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "99.2",
+         "value": 99.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.6",
+         "value": 99.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.4",
+         "value": 99.4,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "97.4",
+         "value": 97.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.9",
+         "value": 98.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Qwen-RobotManip",
+       "ours": false,
+       "cells": [
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.2",
+         "value": 99.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "Fast-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "98.2",
+         "value": 98.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "100.0",
+         "value": 100.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "97.0",
+         "value": 97.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "95.2",
+         "value": 95.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.6",
+         "value": 97.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Motus",
+       "ours": false,
+       "cells": [
+        {
+         "text": "96.8",
+         "value": 96.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.8",
+         "value": 99.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "96.6",
+         "value": 96.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.6",
+         "value": 97.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.7",
+         "value": 97.7,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ImageWAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "97.2",
+         "value": 97.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.2",
+         "value": 99.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.8",
+         "value": 98.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.4",
+         "value": 98.4,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "98.4",
+         "value": 98.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "LingBot-VA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "98.5",
+         "value": 98.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.6",
+         "value": 99.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.2",
+         "value": 97.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.5",
+         "value": 98.5,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "98.5",
+         "value": 98.5,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "DiT4DiT",
+       "ours": false,
+       "cells": [
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "98.6",
+         "value": 98.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Being-H0.7",
+       "ours": false,
+       "cells": [
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.2",
+         "value": 99.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "100.0",
+         "value": 100.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "99.8",
+         "value": 99.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "99.4",
+         "value": 99.4,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "98.4",
+         "value": 98.4,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "99.4",
+         "value": 99.4,
+         "best": true,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "99.6",
+         "value": 99.6,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "99.6",
+         "value": 99.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.8",
+         "value": 99.8,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "98.2",
+         "value": 98.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "99.3",
+         "value": 99.3,
+         "best": false,
+         "second": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "LIBERO"
+  },
+  {
+   "id": "libero_plus",
+   "title": "LIBERO-Plus",
+   "caption": "Evaluation Results on LIBERO-Plus. Bold denotes best values, underline second best.",
+   "columns": [
+    "Camera",
+    "Robot",
+    "Language",
+    "Light",
+    "Background",
+    "Noise",
+    "Layout",
+    "Avg"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "π₀",
+       "ours": false,
+       "cells": [
+        {
+         "text": "13.8",
+         "value": 13.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.0",
+         "value": 6.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.8",
+         "value": 58.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "85.0",
+         "value": 85.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "81.4",
+         "value": 81.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "79.0",
+         "value": 79.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "68.9",
+         "value": 68.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.6",
+         "value": 53.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenVLA-OFT",
+       "ours": false,
+       "cells": [
+        {
+         "text": "56.4",
+         "value": 56.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "31.9",
+         "value": 31.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "79.5",
+         "value": 79.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.7",
+         "value": 88.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.3",
+         "value": 93.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "75.8",
+         "value": 75.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "74.2",
+         "value": 74.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "69.6",
+         "value": 69.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "StarVLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "52.5",
+         "value": 52.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "49.8",
+         "value": 49.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.5",
+         "value": 88.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "95.7",
+         "value": 95.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "95.7",
+         "value": 95.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "73.0",
+         "value": 73.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "76.9",
+         "value": 76.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "74.1",
+         "value": 74.1,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0",
+       "ours": false,
+       "cells": [
+        {
+         "text": "60.4",
+         "value": 60.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "67.9",
+         "value": 67.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "86.4",
+         "value": 86.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.2",
+         "value": 96.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "91.6",
+         "value": 91.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "86.4",
+         "value": 86.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "82.6",
+         "value": 82.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "80.5",
+         "value": 80.5,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "78.4",
+         "value": 78.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "73.6",
+         "value": 73.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "80.8",
+         "value": 80.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.2",
+         "value": 96.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "94.1",
+         "value": 94.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "89.0",
+         "value": 89.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "84.5",
+         "value": 84.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "84.4",
+         "value": 84.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ACoT-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "72.6",
+         "value": 72.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "82.6",
+         "value": 82.6,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "87.5",
+         "value": 87.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.7",
+         "value": 97.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.5",
+         "value": 96.5,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "87.8",
+         "value": 87.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.1",
+         "value": 88.1,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "86.6",
+         "value": 86.6,
+         "best": false,
+         "second": true
+        }
+       ]
+      },
+      {
+       "model": "Qwen-RobotManip",
+       "ours": false,
+       "cells": [
+        {
+         "text": "87.2",
+         "value": 87.2,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "75.5",
+         "value": 75.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "85.6",
+         "value": 85.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.6",
+         "value": 96.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.7",
+         "value": 97.7,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "97.7",
+         "value": 97.7,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "87.3",
+         "value": 87.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "89.0",
+         "value": 89.0,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "Fast-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "16.4",
+         "value": 16.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "44.5",
+         "value": 44.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "68.9",
+         "value": 68.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "78.2",
+         "value": 78.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.7",
+         "value": 53.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "37.7",
+         "value": 37.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "60.7",
+         "value": 60.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "51.5",
+         "value": 51.5,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Being-H0.7",
+       "ours": false,
+       "cells": [
+        {
+         "text": "82.0",
+         "value": 82.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "59.0",
+         "value": 59.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "82.8",
+         "value": 82.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.8",
+         "value": 97.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "90.0",
+         "value": 90.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.5",
+         "value": 93.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.5",
+         "value": 88.5,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "82.1",
+         "value": 82.1,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Cosmos-Policy",
+       "ours": false,
+       "cells": [
+        {
+         "text": "75.8",
+         "value": 75.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "63.3",
+         "value": 63.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "81.7",
+         "value": 81.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "96.5",
+         "value": 96.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.9",
+         "value": 88.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "92.7",
+         "value": 92.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "82.2",
+         "value": 82.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "82.2",
+         "value": 82.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ImageWAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "80.8",
+         "value": 80.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "50.3",
+         "value": 50.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "91.4",
+         "value": 91.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "98.1",
+         "value": 98.1,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "85.5",
+         "value": 85.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.8",
+         "value": 93.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "80.5",
+         "value": 80.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "83.1",
+         "value": 83.1,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "70.5",
+         "value": 70.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "87.4",
+         "value": 87.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "88.6",
+         "value": 88.6,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "94.0",
+         "value": 94.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "89.7",
+         "value": 89.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "75.5",
+         "value": 75.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "85.2",
+         "value": 85.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "83.4",
+         "value": 83.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "33.8",
+         "value": 33.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "76.1",
+         "value": 76.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.0",
+         "value": 88.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "97.0",
+         "value": 97.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "87.1",
+         "value": 87.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.8",
+         "value": 39.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "77.5",
+         "value": 77.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "69.2",
+         "value": 69.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "LIBERO-Plus"
+  },
+  {
+   "id": "vlabench",
+   "title": "VLABench",
+   "caption": "Evaluation Results on VLABench. Bold denotes best values, underline second best.",
+   "columns": [
+    "In-dist. · SR",
+    "In-dist. · PS",
+    "In-dist. · IS",
+    "Category · SR",
+    "Category · PS",
+    "Category · IS",
+    "Commonsense · SR",
+    "Commonsense · PS",
+    "Commonsense · IS",
+    "Instruction · SR",
+    "Instruction · PS",
+    "Instruction · IS",
+    "Texture · SR",
+    "Texture · PS",
+    "Texture · IS",
+    "Avg · SR",
+    "Avg · PS",
+    "Avg · IS"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "π₀",
+       "ours": false,
+       "cells": [
+        {
+         "text": "47.0",
+         "value": 47.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "62.7",
+         "value": 62.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "67.8",
+         "value": 67.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "21.2",
+         "value": 21.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "33.6",
+         "value": 33.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "44.0",
+         "value": 44.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "29.1",
+         "value": 29.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "43.0",
+         "value": 43.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "54.9",
+         "value": 54.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "17.3",
+         "value": 17.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "38.7",
+         "value": 38.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.0",
+         "value": 58.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "32.2",
+         "value": 32.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "42.5",
+         "value": 42.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "50.6",
+         "value": 50.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "29.4",
+         "value": 29.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "44.1",
+         "value": 44.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "55.0",
+         "value": 55.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "LoHo-Manip",
+       "ours": false,
+       "cells": [
+        {
+         "text": "54.0",
+         "value": 54.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.0",
+         "value": 23.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "36.0",
+         "value": 36.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "42.0",
+         "value": 42.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.0",
+         "value": 39.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.0",
+         "value": 39.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ACoT-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "66.1",
+         "value": 66.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "79.8",
+         "value": 79.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "38.9",
+         "value": 38.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "54.1",
+         "value": 54.1,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "37.8",
+         "value": 37.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "52.3",
+         "value": 52.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.6",
+         "value": 39.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "56.8",
+         "value": 56.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "54.6",
+         "value": 54.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "74.6",
+         "value": 74.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "47.4",
+         "value": 47.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "63.5",
+         "value": 63.5,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "65.4",
+         "value": 65.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "77.8",
+         "value": 77.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "80.4",
+         "value": 80.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "38.2",
+         "value": 38.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "49.7",
+         "value": 49.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "52.0",
+         "value": 52.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "43.9",
+         "value": 43.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "57.3",
+         "value": 57.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "60.0",
+         "value": 60.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "48.2",
+         "value": 48.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "64.2",
+         "value": 64.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "67.0",
+         "value": 67.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "44.9",
+         "value": 44.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "62.3",
+         "value": 62.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "65.0",
+         "value": 65.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "48.1",
+         "value": 48.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "62.3",
+         "value": 62.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "64.9",
+         "value": 64.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ERVLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "69.7",
+         "value": 69.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "81.1",
+         "value": 81.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "84.2",
+         "value": 84.2,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "47.0",
+         "value": 47.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "61.0",
+         "value": 61.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "66.4",
+         "value": 66.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "44.0",
+         "value": 44.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "55.0",
+         "value": 55.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "57.2",
+         "value": 57.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.0",
+         "value": 58.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "70.2",
+         "value": 70.2,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "73.8",
+         "value": 73.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "47.4",
+         "value": 47.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "62.3",
+         "value": 62.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "70.6",
+         "value": 70.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.2",
+         "value": 53.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "65.9",
+         "value": 65.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "70.4",
+         "value": 70.4,
+         "best": false,
+         "second": true
+        }
+       ]
+      },
+      {
+       "model": "Xiaomi-Robotics-1",
+       "ours": false,
+       "cells": [
+        {
+         "text": "75.6",
+         "value": 75.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "85.0",
+         "value": 85.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "79.8",
+         "value": 79.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.0",
+         "value": 53.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "66.6",
+         "value": 66.6,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "66.4",
+         "value": 66.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "48.4",
+         "value": 48.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.3",
+         "value": 58.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.2",
+         "value": 58.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "55.8",
+         "value": 55.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "66.8",
+         "value": 66.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "70.2",
+         "value": 70.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "62.6",
+         "value": 62.6,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "74.9",
+         "value": 74.9,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "74.8",
+         "value": 74.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "59.1",
+         "value": 59.1,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "70.3",
+         "value": 70.3,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "69.9",
+         "value": 69.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "Bridge-WA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "78.0",
+         "value": 78.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "85.8",
+         "value": 85.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "85.0",
+         "value": 85.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "23.0",
+         "value": 23.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "28.8",
+         "value": 28.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.0",
+         "value": 39.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "51.1",
+         "value": 51.1,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "64.4",
+         "value": 64.4,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "74.2",
+         "value": 74.2,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "67.0",
+         "value": 67.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "80.3",
+         "value": 80.3,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "82.0",
+         "value": 82.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "45.0",
+         "value": 45.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "60.3",
+         "value": 60.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "76.0",
+         "value": 76.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "52.8",
+         "value": 52.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "64.0",
+         "value": 64.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "71.2",
+         "value": 71.2,
+         "best": true,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "83.4",
+         "value": 83.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "87.9",
+         "value": 87.9,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "75.2",
+         "value": 75.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "38.1",
+         "value": 38.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "45.9",
+         "value": 45.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "45.9",
+         "value": 45.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.0",
+         "value": 58.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "64.8",
+         "value": 64.8,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "57.9",
+         "value": 57.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.8",
+         "value": 53.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "64.5",
+         "value": 64.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "66.5",
+         "value": 66.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "61.4",
+         "value": 61.4,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "72.9",
+         "value": 72.9,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "71.6",
+         "value": 71.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.9",
+         "value": 58.9,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "67.2",
+         "value": 67.2,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "63.5",
+         "value": 63.5,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "VLABench"
+  },
+  {
+   "id": "robotwin_c2r",
+   "title": "RoboTwin2",
+   "caption": "Evaluation Results on RoboTwin2.0-Clean2Random. Bold denotes best values, underline second best.",
+   "columns": [
+    "Clean",
+    "Randomized",
+    "Avg"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "StarVLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "46.5",
+         "value": 46.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.2",
+         "value": 3.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "24.9",
+         "value": 24.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GR00T-N1.7",
+       "ours": false,
+       "cells": [
+        {
+         "text": "43.6",
+         "value": 43.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "20.7",
+         "value": 20.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "32.2",
+         "value": 32.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "X-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "68.0",
+         "value": 68.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "20.9",
+         "value": 20.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "44.5",
+         "value": 44.5,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Spatial Forcing",
+       "ours": false,
+       "cells": [
+        {
+         "text": "77.2",
+         "value": 77.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "26.7",
+         "value": 26.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "52.0",
+         "value": 52.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0",
+       "ours": false,
+       "cells": [
+        {
+         "text": "70.7",
+         "value": 70.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "36.0",
+         "value": 36.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.4",
+         "value": 53.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "70.7",
+         "value": 70.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "46.0",
+         "value": 46.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "58.4",
+         "value": 58.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GigaBrain-0.7",
+       "ours": false,
+       "cells": [
+        {
+         "text": "66.8",
+         "value": 66.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "67.9",
+         "value": 67.9,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "67.4",
+         "value": 67.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Qwen-RobotManip",
+       "ours": false,
+       "cells": [
+        {
+         "text": "84.7",
+         "value": 84.7,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "69.4",
+         "value": 69.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "77.1",
+         "value": 77.1,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "AHA-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "64.3",
+         "value": 64.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.2",
+         "value": 3.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "33.8",
+         "value": 33.8,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Fast-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "77.8",
+         "value": 77.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.9",
+         "value": 1.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.9",
+         "value": 39.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "X-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "70.0",
+         "value": 70.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "25.8",
+         "value": 25.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "47.9",
+         "value": 47.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "4D-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "81.5",
+         "value": 81.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "41.8",
+         "value": 41.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "61.7",
+         "value": 61.7,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "89.4",
+         "value": 89.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "48.7",
+         "value": 48.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "69.0",
+         "value": 69.0,
+         "best": false,
+         "second": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "RoboTwin2.0-Clean2Random"
+  },
+  {
+   "id": "robotwin",
+   "title": "RoboTwin2",
+   "caption": "Evaluation Results on RoboTwin2.0-Full. Bold denotes best values, underline second best.",
+   "columns": [
+    "Clean",
+    "Randomized",
+    "Avg"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "X-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "72.80",
+         "value": 72.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "72.84",
+         "value": 72.84,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "72.82",
+         "value": 72.82,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "82.70",
+         "value": 82.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "76.80",
+         "value": 76.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "79.75",
+         "value": 79.75,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0",
+       "ours": false,
+       "cells": [
+        {
+         "text": "86.06",
+         "value": 86.06,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "85.08",
+         "value": 85.08,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "85.57",
+         "value": 85.57,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Qwen-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "86.10",
+         "value": 86.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "87.20",
+         "value": 87.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "86.65",
+         "value": 86.65,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "StarVLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "88.18",
+         "value": 88.18,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.32",
+         "value": 88.32,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "88.25",
+         "value": 88.25,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Galaxea G0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "93.70",
+         "value": 93.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "92.80",
+         "value": 92.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.25",
+         "value": 93.25,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Qwen-RobotManip",
+       "ours": false,
+       "cells": [
+        {
+         "text": "93.70",
+         "value": 93.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "94.00",
+         "value": 94.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "93.85",
+         "value": 93.85,
+         "best": false,
+         "second": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "Motus",
+       "ours": false,
+       "cells": [
+        {
+         "text": "88.66",
+         "value": 88.66,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "87.02",
+         "value": 87.02,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "87.84",
+         "value": 87.84,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Fast-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "91.90",
+         "value": 91.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "91.80",
+         "value": 91.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "91.85",
+         "value": 91.85,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "LingBot-VA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "92.93",
+         "value": 92.93,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "91.55",
+         "value": 91.55,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "92.24",
+         "value": 92.24,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ImageWAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "93.20",
+         "value": 93.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.56",
+         "value": 93.56,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.38",
+         "value": 93.38,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "LingBot-VA 2.0",
+       "ours": false,
+       "cells": [
+        {
+         "text": "93.80",
+         "value": 93.8,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "93.40",
+         "value": 93.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.60",
+         "value": 93.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "94.00",
+         "value": 94.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "94.20",
+         "value": 94.2,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "94.10",
+         "value": 94.1,
+         "best": true,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "93.74",
+         "value": 93.74,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.46",
+         "value": 93.46,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "93.60",
+         "value": 93.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "RoboTwin2.0-Full"
+  },
+  {
+   "id": "robodojo",
+   "title": "RoboDojo",
+   "caption": "Evaluation Results on RoboDojo. Bold denotes best values, underline second best.",
+   "columns": [
+    "Gen-Std · SR",
+    "Gen-Std · Score",
+    "Gen-Rand · SR",
+    "Gen-Rand · Score",
+    "Precision · SR",
+    "Precision · Score",
+    "Long-Horizon · SR",
+    "Long-Horizon · Score",
+    "Memory · SR",
+    "Memory · Score",
+    "Open · SR",
+    "Open · Score",
+    "Avg · SR",
+    "Avg · Score"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "StarVLA-α",
+       "ours": false,
+       "cells": [
+        {
+         "text": "5.00",
+         "value": 5.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.54",
+         "value": 7.54,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.00",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.33",
+         "value": 0.33,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.33",
+         "value": 4.33,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.90",
+         "value": 9.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.50",
+         "value": 6.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.15",
+         "value": 14.15,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.44",
+         "value": 2.44,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.34",
+         "value": 3.34,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.58",
+         "value": 0.58,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.68",
+         "value": 0.68,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.24",
+         "value": 3.24,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.40",
+         "value": 6.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "X-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "12.00",
+         "value": 12.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "17.90",
+         "value": 17.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.00",
+         "value": 1.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.04",
+         "value": 3.04,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "12.00",
+         "value": 12.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "18.32",
+         "value": 18.32,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.75",
+         "value": 9.75,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "16.53",
+         "value": 16.53,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.56",
+         "value": 3.56,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.76",
+         "value": 4.76,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.50",
+         "value": 0.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.55",
+         "value": 0.55,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.52",
+         "value": 6.52,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.13",
+         "value": 10.13,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "15.00",
+         "value": 15.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "20.93",
+         "value": 20.93,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.00",
+         "value": 1.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.82",
+         "value": 5.82,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.50",
+         "value": 5.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "12.40",
+         "value": 12.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.67",
+         "value": 14.67,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.54",
+         "value": 23.54,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.56",
+         "value": 4.56,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.78",
+         "value": 5.78,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.67",
+         "value": 1.67,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.98",
+         "value": 1.98,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.91",
+         "value": 6.91,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "11.41",
+         "value": 11.41,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Spatial Forcing",
+       "ours": false,
+       "cells": [
+        {
+         "text": "15.00",
+         "value": 15.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "21.25",
+         "value": 21.25,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.00",
+         "value": 4.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.98",
+         "value": 6.98,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.58",
+         "value": 10.58,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "17.33",
+         "value": 17.33,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.58",
+         "value": 14.58,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.26",
+         "value": 23.26,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.11",
+         "value": 4.11,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.43",
+         "value": 5.43,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.58",
+         "value": 1.58,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.78",
+         "value": 1.78,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.04",
+         "value": 8.04,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "12.38",
+         "value": 12.38,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Hy-Embodied-0.5-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "17.00",
+         "value": 17.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "21.98",
+         "value": 21.98,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.00",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.57",
+         "value": 1.57,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.00",
+         "value": 8.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "13.81",
+         "value": 13.81,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.92",
+         "value": 14.92,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "25.74",
+         "value": 25.74,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "12.11",
+         "value": 12.11,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "13.37",
+         "value": 13.37,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "0.58",
+         "value": 0.58,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.65",
+         "value": 0.65,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.80",
+         "value": 8.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "13.07",
+         "value": 13.07,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Xiaomi-Robotics-1",
+       "ours": false,
+       "cells": [
+        {
+         "text": "28.00",
+         "value": 28.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "35.65",
+         "value": 35.65,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "6.00",
+         "value": 6.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "11.44",
+         "value": 11.44,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "18.83",
+         "value": 18.83,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "26.69",
+         "value": 26.69,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "23.67",
+         "value": 23.67,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "38.39",
+         "value": 38.39,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "6.56",
+         "value": 6.56,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.81",
+         "value": 7.81,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.58",
+         "value": 3.58,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "3.94",
+         "value": 3.94,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "13.93",
+         "value": 13.93,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "20.07",
+         "value": 20.07,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Galaxea G0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "20.00",
+         "value": 20.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "26.74",
+         "value": 26.74,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.00",
+         "value": 6.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "11.16",
+         "value": 11.16,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "20.42",
+         "value": 20.42,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "28.25",
+         "value": 28.25,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "32.25",
+         "value": 32.25,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "44.12",
+         "value": 44.12,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "7.33",
+         "value": 7.33,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.61",
+         "value": 8.61,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.58",
+         "value": 1.58,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.73",
+         "value": 1.73,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.88",
+         "value": 14.88,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "20.23",
+         "value": 20.23,
+         "best": false,
+         "second": true
+        }
+       ]
+      },
+      {
+       "model": "DM0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "18.00",
+         "value": 18.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.49",
+         "value": 23.49,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.00",
+         "value": 4.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.06",
+         "value": 8.06,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "16.75",
+         "value": 16.75,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "24.82",
+         "value": 24.82,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "19.50",
+         "value": 19.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "33.70",
+         "value": 33.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "47.44",
+         "value": 47.44,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "47.74",
+         "value": 47.74,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "2.08",
+         "value": 2.08,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "2.43",
+         "value": 2.43,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "19.34",
+         "value": 19.34,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "24.90",
+         "value": 24.9,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "Fast-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "2.00",
+         "value": 2.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.33",
+         "value": 4.33,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.00",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.34",
+         "value": 0.34,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.00",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.96",
+         "value": 1.96,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.17",
+         "value": 5.17,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.14",
+         "value": 9.14,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.44",
+         "value": 3.44,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.55",
+         "value": 3.55,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.42",
+         "value": 0.42,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.42",
+         "value": 0.42,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.03",
+         "value": 2.03,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.48",
+         "value": 3.48,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "AHA-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "6.00",
+         "value": 6.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.32",
+         "value": 10.32,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.00",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.26",
+         "value": 1.26,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.42",
+         "value": 2.42,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.86",
+         "value": 5.86,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.67",
+         "value": 2.67,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.61",
+         "value": 8.61,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.78",
+         "value": 2.78,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.97",
+         "value": 2.97,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.83",
+         "value": 0.83,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.88",
+         "value": 0.88,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.39",
+         "value": 2.39,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.82",
+         "value": 4.82,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GigaWorld-Policy",
+       "ours": false,
+       "cells": [
+        {
+         "text": "6.00",
+         "value": 6.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.28",
+         "value": 10.28,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.00",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.41",
+         "value": 0.41,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.83",
+         "value": 1.83,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.15",
+         "value": 6.15,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.92",
+         "value": 8.92,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "15.51",
+         "value": 15.51,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.22",
+         "value": 2.22,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.46",
+         "value": 3.46,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.50",
+         "value": 0.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.54",
+         "value": 0.54,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.27",
+         "value": 3.27,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.20",
+         "value": 6.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "X-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "5.00",
+         "value": 5.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "11.24",
+         "value": 11.24,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.00",
+         "value": 1.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.54",
+         "value": 3.54,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.83",
+         "value": 1.83,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.72",
+         "value": 6.72,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.08",
+         "value": 9.08,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "17.47",
+         "value": 17.47,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.67",
+         "value": 4.67,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.32",
+         "value": 6.32,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.25",
+         "value": 0.25,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.57",
+         "value": 0.57,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.83",
+         "value": 3.83,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.69",
+         "value": 7.69,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "25.56",
+         "value": 25.56,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "33.16",
+         "value": 33.16,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "4.11",
+         "value": 4.11,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "8.26",
+         "value": 8.26,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.25",
+         "value": 9.25,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "18.45",
+         "value": 18.45,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "25.33",
+         "value": 25.33,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "34.93",
+         "value": 34.93,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.11",
+         "value": 9.11,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.41",
+         "value": 10.41,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.08",
+         "value": 1.08,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.41",
+         "value": 1.41,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "11.92",
+         "value": 11.92,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "17.18",
+         "value": 17.18,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "RoboDojo"
+  },
+  {
+   "id": "ebench",
+   "title": "EBench",
+   "caption": "Evaluation Results on EBench. Bold denotes best values, underline second best.",
+   "columns": [
+    "Table Top · SR",
+    "Table Top · Score",
+    "Simple PnP · SR",
+    "Simple PnP · Score",
+    "Long Horizon · SR",
+    "Long Horizon · Score",
+    "Overall · SR",
+    "Overall · Score"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "StarVLA-OFT",
+       "ours": false,
+       "cells": [
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.2",
+         "value": 0.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀",
+       "ours": false,
+       "cells": [
+        {
+         "text": "15.7",
+         "value": 15.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "30.0",
+         "value": 30.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "35.0",
+         "value": 35.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.0",
+         "value": 39.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "17.0",
+         "value": 17.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "41.0",
+         "value": 41.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.6",
+         "value": 23.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "37.0",
+         "value": 37.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "X-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "8.6",
+         "value": 8.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "24.0",
+         "value": 24.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "50.0",
+         "value": 50.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "54.0",
+         "value": 54.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.2",
+         "value": 6.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "25.0",
+         "value": 25.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.7",
+         "value": 23.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "36.0",
+         "value": 36.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "InternVLA-A1",
+       "ours": false,
+       "cells": [
+        {
+         "text": "4.3",
+         "value": 4.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "11.0",
+         "value": 11.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "43.0",
+         "value": 43.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "47.0",
+         "value": 47.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "17.9",
+         "value": 17.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "46.0",
+         "value": 46.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.9",
+         "value": 23.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "36.0",
+         "value": 36.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "12.9",
+         "value": 12.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "32.0",
+         "value": 32.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "45.0",
+         "value": 45.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "50.0",
+         "value": 50.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "18.1",
+         "value": 18.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.0",
+         "value": 39.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "27.1",
+         "value": 27.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "41.0",
+         "value": 41.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GigaBrain-0.7",
+       "ours": false,
+       "cells": [
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "33.3",
+         "value": 33.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "46.0",
+         "value": 46.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Qwen-RobotManip",
+       "ours": false,
+       "cells": [
+        {
+         "text": "50.0",
+         "value": 50.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "70.0",
+         "value": 70.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "56.5",
+         "value": 56.5,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "60.0",
+         "value": 60.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "29.9",
+         "value": 29.9,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "55.0",
+         "value": 55.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "45.6",
+         "value": 45.6,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "60.0",
+         "value": 60.0,
+         "best": false,
+         "second": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "Fast-WAM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.7",
+         "value": 4.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.6",
+         "value": 7.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "30.0",
+         "value": 30.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "44.2",
+         "value": 44.2,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "67.5",
+         "value": 67.5,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "72.0",
+         "value": 72.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "44.3",
+         "value": 44.3,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "72.6",
+         "value": 72.6,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "49.4",
+         "value": 49.4,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "64.7",
+         "value": 64.7,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "EBench"
+  },
+  {
+   "id": "robocasa_365",
+   "title": "RoboCasa365",
+   "caption": "Evaluation Results on RoboCasa365. Bold denotes best values, underline second best.",
+   "columns": [
+    "Atomic",
+    "Comp.-Seen",
+    "Comp.-Unseen",
+    "Avg"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "Diffusion Policy",
+       "ours": false,
+       "cells": [
+        {
+         "text": "15.7",
+         "value": 15.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.2",
+         "value": 0.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.3",
+         "value": 1.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.1",
+         "value": 6.1,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀",
+       "ours": false,
+       "cells": [
+        {
+         "text": "36.3",
+         "value": 36.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.2",
+         "value": 5.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.7",
+         "value": 0.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "15.0",
+         "value": 15.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "39.6",
+         "value": 39.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.1",
+         "value": 7.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.2",
+         "value": 1.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "16.9",
+         "value": 16.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GR00T-N1.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "50.7",
+         "value": 50.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.8",
+         "value": 14.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.7",
+         "value": 2.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.9",
+         "value": 23.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Qwen-RobotManip",
+       "ours": false,
+       "cells": [
+        {
+         "text": "68.6",
+         "value": 68.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "20.1",
+         "value": 20.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.9",
+         "value": 14.9,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "35.9",
+         "value": 35.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "RLDX-1",
+       "ours": false,
+       "cells": [
+        {
+         "text": "67.6",
+         "value": 67.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "27.9",
+         "value": 27.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.5",
+         "value": 8.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "36.0",
+         "value": 36.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Xiaomi-Robotics-1",
+       "ours": false,
+       "cells": [
+        {
+         "text": "80.2",
+         "value": 80.2,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "57.1",
+         "value": 57.1,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "32.1",
+         "value": 32.1,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "57.4",
+         "value": 57.4,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "GigaWorld-Policy",
+       "ours": false,
+       "cells": [
+        {
+         "text": "44.4",
+         "value": 44.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "11.8",
+         "value": 11.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.9",
+         "value": 2.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "20.7",
+         "value": 20.7,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "ABot-M0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "75.9",
+         "value": 75.9,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "38.3",
+         "value": 38.3,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "2.7",
+         "value": 2.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "40.4",
+         "value": 40.4,
+         "best": false,
+         "second": true
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "69.7",
+         "value": 69.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "32.1",
+         "value": 32.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "8.9",
+         "value": 8.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "38.2",
+         "value": 38.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "RoboCasa365"
+  },
+  {
+   "id": "robocasa_gr1",
+   "title": "RoboCasa-GR1",
+   "caption": "Evaluation Results on RoboCasa-GR1. Bold denotes best values, underline second best.",
+   "columns": [
+    "SR (%)"
+   ],
+   "groups": [
+    {
+     "label": "VLA",
+     "rows": [
+      {
+       "model": "π₀",
+       "ours": false,
+       "cells": [
+        {
+         "text": "13.6",
+         "value": 13.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "37.0",
+         "value": 37.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GR00T-N1.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "48.0",
+         "value": 48.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "StarVLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "48.8",
+         "value": 48.8,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GR00T-N1.6",
+       "ours": false,
+       "cells": [
+        {
+         "text": "49.9",
+         "value": 49.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "VP-VLA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "53.8",
+         "value": 53.8,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Being-H0.5",
+       "ours": false,
+       "cells": [
+        {
+         "text": "53.9",
+         "value": 53.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Qwen-VLA-Instruct",
+       "ours": false,
+       "cells": [
+        {
+         "text": "56.7",
+         "value": 56.7,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "RLDX-1",
+       "ours": false,
+       "cells": [
+        {
+         "text": "58.7",
+         "value": 58.7,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "PhysBrain 1.0",
+       "ours": false,
+       "cells": [
+        {
+         "text": "64.5",
+         "value": 64.5,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "WAM",
+     "rows": [
+      {
+       "model": "UWM",
+       "ours": false,
+       "cells": [
+        {
+         "text": "20.0",
+         "value": 20.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Being-H0.7",
+       "ours": false,
+       "cells": [
+        {
+         "text": "49.2",
+         "value": 49.2,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "DiT4DiT",
+       "ours": false,
+       "cells": [
+        {
+         "text": "50.8",
+         "value": 50.8,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "LDA-1B",
+       "ours": false,
+       "cells": [
+        {
+         "text": "55.4",
+         "value": 55.4,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "60.5",
+         "value": 60.5,
+         "best": false,
+         "second": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "RoboCasa-GR1"
+  }
+ ],
+ "real": [
+  {
+   "id": "real_world",
+   "title": "Single-Arm Real-Robot Tasks",
+   "caption": "Evaluation Results on Single-Arm Real-Robot Tasks. Bold denotes best values, underline second best.",
+   "columns": [
+    "Stack Jenga",
+    "Stack Ring",
+    "Put Chili in Drawer",
+    "Put Jenga in Drawer",
+    "Hang on M",
+    "Hang on Cup",
+    "Avg"
+   ],
+   "groups": [
+    {
+     "label": null,
+     "rows": [
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "13/20 (65%)",
+         "value": 65.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7/20 (35%)",
+         "value": 35.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14/20 (70%)",
+         "value": 70.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "15/20 (75%)",
+         "value": 75.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7/20 (35%)",
+         "value": 35.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10/20 (50%)",
+         "value": 50.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "66/120 (55.0%)",
+         "value": 55.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "LingBot-VA",
+       "ours": false,
+       "cells": [
+        {
+         "text": "16/20 (80%)",
+         "value": 80.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "15/20 (75%)",
+         "value": 75.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "17/20 (85%)",
+         "value": 85.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "17/20 (85%)",
+         "value": 85.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "13/20 (65%)",
+         "value": 65.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "15/20 (75%)",
+         "value": 75.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "93/120 (77.5%)",
+         "value": 77.5,
+         "best": false,
+         "second": true
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "17/20 (85%)",
+         "value": 85.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "12/20 (60%)",
+         "value": 60.0,
+         "best": false,
+         "second": true
+        },
+        {
+         "text": "20/20 (100%)",
+         "value": 100.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "20/20 (100%)",
+         "value": 100.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "13/20 (65%)",
+         "value": 65.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "17/20 (85%)",
+         "value": 85.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "99/120 (82.5%)",
+         "value": 82.5,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "Single-arm"
+  },
+  {
+   "id": "robodojo_real",
+   "title": "RoboDojo real-world track",
+   "caption": "Evaluation Results on the Bimanual RoboDojo Real-World Track. Each cell reports Score / SR (%). Bold denotes best values, underline second best. Rows are shaded by embodiment.",
+   "columns": [
+    "Task 1",
+    "Task 2",
+    "Task 3",
+    "Task 4",
+    "Task 5",
+    "Task 6",
+    "Emb. Avg.",
+    "Overall Avg."
+   ],
+   "subStub": "Embodiment",
+   "groups": [
+    {
+     "label": null,
+     "rows": [
+      {
+       "model": "X-VLA",
+       "sub": "ARX X5",
+       "ours": false,
+       "spanStart": true,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.0 / 0.0",
+         "value": 2.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "20.7 / 10.0",
+         "value": 20.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "18.0 / 0.0",
+         "value": 18.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.8 / 1.7",
+         "value": 6.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "5.3 / 0.0",
+         "value": 5.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "53.0 / 50.0",
+         "value": 53.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "37.0 / 0.0",
+         "value": 37.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "15.9 / 8.3",
+         "value": 15.9,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper X",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.7 / 0.0",
+         "value": 0.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.1 / 0.0",
+         "value": 0.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.6 / 3.3",
+         "value": 7.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "Xiaomi-Robotics-0",
+       "sub": "ARX X5",
+       "ours": false,
+       "spanStart": true,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "24.0 / 20.0",
+         "value": 24.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.0 / 0.0",
+         "value": 3.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.0 / 0.0",
+         "value": 4.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "40.0 / 20.0",
+         "value": 40.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "19.0 / 10.0",
+         "value": 19.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "15.0 / 8.3",
+         "value": 15.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.0 / 20.0",
+         "value": 23.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "22.7 / 0.0",
+         "value": 22.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.6 / 3.3",
+         "value": 7.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper X",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.7 / 0.0",
+         "value": 0.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.0 / 0.0",
+         "value": 4.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.7 / 0.0",
+         "value": 2.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.2 / 0.0",
+         "value": 1.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.9 / 3.9",
+         "value": 7.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "GalaxeaVLA (G0)",
+       "sub": "ARX X5",
+       "ours": false,
+       "spanStart": true,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "1.0 / 0.0",
+         "value": 1.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.0 / 0.0",
+         "value": 3.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.0 / 0.0",
+         "value": 6.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.3 / 0.0",
+         "value": 10.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.4 / 0.0",
+         "value": 3.4,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "32.7 / 10.0",
+         "value": 32.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "13.3 / 10.0",
+         "value": 13.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "56.0 / 50.0",
+         "value": 56.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "30.0 / 10.0",
+         "value": 30.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "22.0 / 13.3",
+         "value": 22.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper X",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.0 / 0.0",
+         "value": 4.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6.0 / 0.0",
+         "value": 6.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.7 / 0.0",
+         "value": 1.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.0 / 4.4",
+         "value": 9.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "InternVLA-A1",
+       "sub": "ARX X5",
+       "ours": false,
+       "spanStart": true,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "48.0 / 20.0",
+         "value": 48.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "12.0 / 0.0",
+         "value": 12.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.0 / 3.3",
+         "value": 10.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.3 / 0.0",
+         "value": 7.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "73.0 / 70.0",
+         "value": 73.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "59.0 / 40.0",
+         "value": 59.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "23.2 / 18.3",
+         "value": 23.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper X",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "4.0 / 0.0",
+         "value": 4.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.0 / 0.0",
+         "value": 2.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.0 / 0.0",
+         "value": 10.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2.7 / 0.0",
+         "value": 2.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "12.0 / 7.2",
+         "value": 12.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "π₀.₅",
+       "sub": "ARX X5",
+       "ours": false,
+       "spanStart": true,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "24.6 / 20.0",
+         "value": 24.6,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1.8 / 0.0",
+         "value": 1.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "25.8 / 10.0",
+         "value": 25.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "47.0 / 20.0",
+         "value": 47.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "40.0 / 20.0",
+         "value": 40.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "26.8 / 10.0",
+         "value": 26.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "27.7 / 13.3",
+         "value": 27.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "10.0 / 10.0",
+         "value": 10.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "28.0 / 0.0",
+         "value": 28.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "10.0 / 10.0",
+         "value": 10.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "72.0 / 60.0",
+         "value": 72.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "72.0 / 50.0",
+         "value": 72.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "32.0 / 21.7",
+         "value": 32.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper X",
+       "ours": false,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "14.8 / 10.0",
+         "value": 14.8,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "29.5 / 10.0",
+         "value": 29.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "7.5 / 0.0",
+         "value": 7.5,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3.0 / 0.0",
+         "value": 3.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9.1 / 3.3",
+         "value": 9.1,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "22.9 / 12.8",
+         "value": 22.9,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "sub": "ARX X5",
+       "ours": true,
+       "spanStart": true,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "31.0 / 0.0",
+         "value": 31.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "13.0 / 0.0",
+         "value": 13.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "52.0 / 20.0",
+         "value": 52.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "100.0 / 100.0",
+         "value": 100.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "38.0 / 20.0",
+         "value": 38.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "39.0 / 23.3",
+         "value": 39.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper",
+       "ours": true,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "8.3 / 0.0",
+         "value": 8.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "60.0 / 40.0",
+         "value": 60.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "36.7 / 30.0",
+         "value": 36.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "100.0 / 100.0",
+         "value": 100.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "75.0 / 50.0",
+         "value": 75.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "46.7 / 36.7",
+         "value": 46.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "—",
+         "value": null,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "",
+       "sub": "Piper X",
+       "ours": true,
+       "spanStart": false,
+       "spanLen": 3,
+       "cells": [
+        {
+         "text": "0.0 / 0.0",
+         "value": 0.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "28.0 / 10.0",
+         "value": 28.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "18.0 / 0.0",
+         "value": 18.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "52.3 / 20.0",
+         "value": 52.3,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "40.0 / 40.0",
+         "value": 40.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "24.7 / 10.0",
+         "value": 24.7,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "27.2 / 13.3",
+         "value": 27.2,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "37.6 / 24.4",
+         "value": 37.6,
+         "best": false,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "Bimanual (RoboDojo)"
+  },
+  {
+   "id": "real_world_dex",
+   "title": "Dexterous-Hand Real-Robot Tasks",
+   "caption": "Evaluation Results on Dexterous-Hand Real-Robot Tasks. Each cell reports SR / Score; the OOD column aggregates all variation settings of its task. Bold denotes best values.",
+   "columns": [
+    "Stack Toy Tower · ID",
+    "Stack Toy Tower · OOD",
+    "Collect Shuttlecocks · ID",
+    "Collect Shuttlecocks · OOD",
+    "Put Away Clothes · ID",
+    "Put Away Clothes · OOD",
+    "Twist off Bottle Cap · ID",
+    "Twist off Bottle Cap · OOD"
+   ],
+   "groups": [
+    {
+     "label": null,
+     "rows": [
+      {
+       "model": "π₀.₅",
+       "ours": false,
+       "cells": [
+        {
+         "text": "1/10 (10%) / 16/30 (53.3)",
+         "value": 10.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "1/10 (10%) / 12/30 (40.0)",
+         "value": 10.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "2/10 (20%) / 11/35 (31.4)",
+         "value": 20.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3/15 (20%) / 17/54 (31.5)",
+         "value": 20.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6/10 (60%) / 26/30 (86.7)",
+         "value": 60.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "9/20 (45%) / 45/60 (75.0)",
+         "value": 45.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "3/10 (30%) / 8/10 (80.0)",
+         "value": 30.0,
+         "best": false,
+         "second": false
+        },
+        {
+         "text": "6/20 (30%) / 13/20 (65.0)",
+         "value": 30.0,
+         "best": false,
+         "second": false
+        }
+       ]
+      },
+      {
+       "model": "OpenWAM-α",
+       "ours": true,
+       "cells": [
+        {
+         "text": "4/10 (40%) / 21/30 (70.0)",
+         "value": 40.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "3/10 (30%) / 17/30 (56.7)",
+         "value": 30.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "6/10 (60%) / 29/35 (82.9)",
+         "value": 60.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "4/15 (26.7%) / 30/57 (52.6)",
+         "value": 26.7,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "10/10 (100%) / 30/30 (100.0)",
+         "value": 100.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "17/20 (85%) / 55/60 (91.7)",
+         "value": 85.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "7/10 (70%) / 10/10 (100.0)",
+         "value": 70.0,
+         "best": true,
+         "second": false
+        },
+        {
+         "text": "16/20 (80%) / 18/20 (90.0)",
+         "value": 80.0,
+         "best": true,
+         "second": false
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "short": "Dexterous hand"
+  }
+ ]
+}
