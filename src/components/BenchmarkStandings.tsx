@@ -8,7 +8,6 @@ import {
   BASELINE_INK,
   COLUMNS,
   COLUMN_SLOTS,
-  GRID_ROWS,
   LEGEND,
   MODEL_BY_KEY,
   MUTED,
@@ -208,7 +207,6 @@ function PanelBlock({
 
 export default function BenchmarkStandings() {
   const [hover, setHover] = useState<string | null>(null);
-  const totalSlots = COLUMN_SLOTS.reduce((a, b) => a + b, 0);
 
   return (
     <div>
@@ -274,13 +272,6 @@ export default function BenchmarkStandings() {
         })}
       </div>
 
-      <p className="mt-4 text-center text-[11px] leading-relaxed text-muted-foreground">
-        One panel per simulation leaderboard, {totalSlots} bar slots across{" "}
-        {GRID_ROWS} rows. Within each panel OpenWAM-α holds the leftmost slot and
-        the baselines are ordered ascending, exactly as in the paper. Where a
-        panel&rsquo;s scores are too bunched for zero-based bars to separate, the
-        axis floor is noted under the title.
-      </p>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export const ARCHITECTURE = [
     stage: "Visual encoder",
     value: "Wan2.2-VAE",
     detail:
-      "Frozen. Encodes causally — the first frame alone, then groups of four — so the first latent frame stays a clean anchor of the present.",
+      "Frozen. Encodes causally: the first frame alone, then groups of four. The first latent frame therefore stays a clean anchor of the present.",
     from: "Q3",
     frozen: true,
   },

@@ -640,11 +640,6 @@ export default function PerformanceRadar() {
 
       <DetailPanel datum={selected} />
 
-      <figcaption className="mt-3 px-2 text-center text-[11px] leading-relaxed text-muted-foreground sm:text-[12px]">
-        Geometry is normalized to the leader on each benchmark; hover, focus,
-        or tap for raw scores and model names. Green labels mark physical-robot
-        evaluations.
-      </figcaption>
     </figure>
   );
 }

@@ -129,8 +129,8 @@ export default function HomePage() {
           </div>
           <figcaption className="mt-3 text-center text-[13px] text-muted-foreground">
             <span className="font-medium text-foreground/80">Figure 1.</span>{" "}
-            Overview — a modular infrastructure, a controlled study over six
-            design questions, and the pretrained model that composes the result.
+            A modular infrastructure, a controlled study over six design
+            questions, and OpenWAM-α, the model those answers produce.
           </figcaption>
         </figure>
       </section>
@@ -169,8 +169,8 @@ export default function HomePage() {
               One stack, three layers
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-foreground/80">
-              Modularity turns world–action modeling from a set of coupled
-              implementation choices into a controlled experimental program.
+              Modularity makes world–action modeling a controlled experimental
+              program rather than a set of coupled implementation choices.
             </p>
           </div>
 
@@ -234,8 +234,8 @@ export default function HomePage() {
               What the controlled study found
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-foreground/80">
-              Three questions, asked in sequence — each tested under the
-              conditions the previous answer created.
+              Three questions, asked in sequence. Each answer fixes the setup
+              for the next.
             </p>
           </div>
 
@@ -315,8 +315,8 @@ export default function HomePage() {
             <p className="mt-3 text-[15px] leading-relaxed text-foreground/80">
               The recipe instantiated at scale: a dual-system model with mutual
               world&ndash;action visibility, co-trained in one stage on 518.5M
-              frames &mdash; 6,369 hours &mdash; of egocentric human and robot
-              data through an 80-D unified action space.
+              frames (6,369 hours) of egocentric human and robot data through
+              an 80-D unified action space.
             </p>
           </div>
 
@@ -367,8 +367,8 @@ export default function HomePage() {
               </h3>
               <p className="mt-3 text-[15px] leading-relaxed text-foreground/80">
                 OpenWAM-α holds its standing across eight simulation benchmarks
-                and three real-robot platforms &mdash; including a dexterous
-                hand whose embodiment never appears in the mixture above.
+                and three real-robot platforms, including a dexterous hand
+                whose embodiment never appears in the mixture above.
               </p>
             </div>
 
@@ -467,7 +467,7 @@ export default function HomePage() {
               would be made up. */}
           <p className="mt-5 text-center text-[15px] leading-relaxed text-foreground/75">
             <span className="font-mono text-foreground">TBD</span>
-            {" — "}a citation will be added here once the preprint is up.
+            . A citation will be added here once the preprint is up.
           </p>
         </div>
       </section>

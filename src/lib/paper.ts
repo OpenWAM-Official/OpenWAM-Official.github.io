@@ -107,7 +107,7 @@ export const PILLARS = [
     name: "OpenWAM-Infra",
     color: "#E0342A",
     tagline: "A modular infrastructure for world–action modeling",
-    body: "Factorizes the WAM design space into composable modules — dataloaders, encoders, backbones, architectures, attention masks — behind one trainer, one policy server, and one evaluation protocol spanning simulation and real robots.",
+    body: "Factorizes the WAM design space into composable modules (dataloaders, encoders, backbones, architectures, attention masks) behind one trainer, one policy server, and one evaluation protocol spanning simulation and real robots.",
     facts: [
       "4 visual encoders",
       "5 video backbones",
@@ -120,7 +120,7 @@ export const PILLARS = [
     name: "OpenWAM-Study",
     color: "#62A932",
     tagline: "Design principles for world–action synergy",
-    body: "Six controlled questions — architecture, backbone, visual representation, video↔action interaction, pretraining recipe, denoising strategy — each tested under the conditions the previous one established.",
+    body: "Six controlled questions: architecture, backbone, visual representation, video↔action interaction, pretraining recipe, denoising strategy. Each is tested under the conditions the previous one established.",
     facts: [
       "Q1 Architecture",
       "Q2 Backbone",
@@ -346,7 +346,7 @@ export const ROLLOUT_GROUPS = [
     id: "dexterous",
     perView: 2,
     label: "Dexterous hand",
-    note: "An embodiment that never appears in the pretraining mixture \u2014 21 hand DoF on top of a 6-DoF end-effector pose. In-distribution runs alongside each OOD variation.",
+    note: "An embodiment that never appears in the pretraining mixture: 21 hand DoF on top of a 6-DoF end-effector pose. In-distribution runs alongside each OOD variation.",
     /* 1280x720 as recorded. Two across gives a 560px-wide tile, so the source
        is still oversampled at display size and stays sharp full-screen. */
     aspect: "16 / 9",
