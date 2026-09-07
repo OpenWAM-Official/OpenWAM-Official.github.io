@@ -192,15 +192,15 @@ export const RECIPE = [
 export const HEADLINE_STATS = [
   {
     label: "RoboDojo bimanual, real robot",
-    value: "37.6",
-    unit: "score",
-    note: "vs 22.9 for π0.5, the next best",
+    value: "37.6 / 24.4",
+    unit: "score / SR",
+    note: "vs 22.9 / 12.8 for π0.5, the next best",
   },
   {
-    label: "LIBERO, simulation",
-    value: "99.3",
-    unit: "%",
-    note: "eight-benchmark suite, five embodiment categories",
+    label: "Simulation coverage",
+    value: "8",
+    unit: "benchmarks",
+    note: "nine leaderboards across five embodiment categories",
   },
   {
     label: "Pretraining data",
@@ -211,13 +211,11 @@ export const HEADLINE_STATS = [
   {
     /* Counted from the org, not estimated. Re-check with
        https://huggingface.co/api/models?author=OpenWAM — it drifts as
-       checkpoints are added or withdrawn, and was 51 a few days ago.
-       The dataset count excludes OpenWAM/assets, which is this site's own
-       video bucket rather than a released dataset. */
+       checkpoints are added or withdrawn, and was 51 a few days ago. */
     label: "Open checkpoints",
     value: "46",
     unit: "models",
-    note: "on the OpenWAM Hugging Face org, with four benchmark datasets",
+    note: "on the OpenWAM Hugging Face org",
   },
 ] as const;
 
