@@ -60,7 +60,11 @@ function Tile({
         <video
           data-rollout-clip=""
           src={`${CLIP_BASE}/${clip.src}.mp4`}
-          poster={asset(`/videos/posters/${clip.src}.jpg`)}
+          /* Not `poster`: the browser fetches a poster immediately,
+             whatever preload says, and these 35 stills sit at the foot of
+             the page. Track promotes this to the real attribute once the
+             tile is near the viewport. */
+          data-poster={asset(`/videos/posters/${clip.src}.jpg`)}
           muted
           loop
           playsInline
@@ -207,20 +211,34 @@ function Track({ group }: { group: Group }) {
       el.querySelectorAll<HTMLVideoElement>("[data-rollout-clip]")
     );
 
+    /* Fetch a tile's poster and bytes slightly before it arrives, so that
+       scrolling reveals a frame rather than an empty box. Playback still
+       waits for the tile to actually be on screen. */
+    const NEAR = 400;
+
     const sync = () => {
       const vh = window.innerHeight || 0;
       const vw = window.innerWidth || 0;
       for (const v of videos) {
         const r = v.getBoundingClientRect();
-        const visible =
+        const onScreen =
           r.width > 0 &&
           r.height > 0 &&
           r.top < vh &&
           r.bottom > 0 &&
           r.left < vw &&
           r.right > 0;
+        const near =
+          r.width > 0 &&
+          r.height > 0 &&
+          r.top < vh + NEAR &&
+          r.bottom > -NEAR &&
+          r.left < vw + NEAR &&
+          r.right > -NEAR;
 
-        if (visible) {
+        if (near && !v.poster && v.dataset.poster) v.poster = v.dataset.poster;
+
+        if (onScreen) {
           if (v.preload !== "auto") v.preload = "auto";
           // Rejects if the tile scrolls out mid-load, or when the browser
           // suspends video-only media in an unrendered tab. Neither is
@@ -234,6 +252,13 @@ function Track({ group }: { group: Group }) {
 
     let frame = 0;
     const schedule = () => {
+      /* rAF never fires while the document is unrendered, which would strand
+         every tile without a poster. The rect maths does not need a frame, so
+         run it straight away in that case — the same escape animateTo takes. */
+      if (document.hidden) {
+        sync();
+        return;
+      }
       if (frame) return;
       frame = requestAnimationFrame(() => {
         frame = 0;
@@ -244,6 +269,9 @@ function Track({ group }: { group: Group }) {
     sync();
 
     const io = new IntersectionObserver(schedule, {
+      /* Matches NEAR, so the observer wakes the sync in time to fetch a
+         poster before the tile is actually visible. */
+      rootMargin: `${NEAR}px`,
       threshold: [0, 0.25, 0.6],
     });
     videos.forEach((v) => io.observe(v));

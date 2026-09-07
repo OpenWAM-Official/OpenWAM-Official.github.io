@@ -219,6 +219,20 @@ export const HEADLINE_STATS = [
   },
 ] as const;
 
+/* Acknowledgements, following the paper's own section. Wuji provided both the
+   compute and the dexterous-hand platform, so both are named; the paper's
+   section mentions only the compute because the hardware is credited in the
+   experimental setup instead. */
+export const PARTNERS = [
+  {
+    name: "Wuji Technology",
+    href: "https://wuji.tech",
+    logo: "/data/partners/wuji.svg",
+    thanks:
+      "We thank Wuji Technology for the compute resources that made this project possible, and for the Wuji dexterous hand on which the dexterous manipulation experiments were run.",
+  },
+] as const;
+
 /* No BibTeX yet: the paper is not on arXiv and has no proceedings entry, so
  * anything printed here would be invented. Replace this with the real entry
  * once there is one — and drop the pending flag on RESOURCE_LINKS.arxiv at the

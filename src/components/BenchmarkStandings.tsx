@@ -50,6 +50,10 @@ function Mark({ model, size }: { model: Model; size: number }) {
       <img
         src={asset(model.logo)}
         alt=""
+        /* The grid is most of a screen below the fold and repeats each mark
+           once per panel, so this is the difference between fetching the
+           logos now and fetching them when the reader arrives. */
+        loading="lazy"
         style={{ height: size, width: "auto" }}
         className="object-contain"
       />

@@ -3,6 +3,7 @@ import { asset } from "@/lib/asset";
 import type { CSSProperties } from "react";
 import HeroSplash from "@/components/HeroSplash";
 import ResourceButtons from "@/components/ResourceButtons";
+import Acknowledgements from "@/components/Acknowledgements";
 import OverviewVideo from "@/components/OverviewVideo";
 import RolloutGallery from "@/components/RolloutGallery";
 import PerformanceRadar from "@/components/PerformanceRadar";
@@ -339,6 +340,7 @@ export default function HomePage() {
               <img
                 src={asset("/figs/architecture.png")}
                 alt="OpenWAM-α: the dual-system architecture, the pretraining mixture, the timestep sampler, and the 80-D unified action space."
+                loading="lazy"
                 className="mx-auto h-auto max-h-[600px] w-auto max-w-full object-contain"
               />
               <span className="mt-2 block text-center text-[11px] text-muted-foreground/70 transition-colors group-hover:text-foreground/60">
@@ -457,6 +459,11 @@ export default function HomePage() {
       </section>
 
       {/* ---- Citation ---- */}
+      {/* ---- Acknowledgements ---- */}
+      <section id="acknowledgements" className="scroll-mt-28 border-t border-border py-14">
+        <Acknowledgements />
+      </section>
+
       <section id="citation" className="scroll-mt-28 border-t border-border py-14">
         <div className="mx-auto max-w-3xl px-4">
           <h2 className="text-center text-[13px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
