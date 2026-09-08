@@ -15,6 +15,13 @@ export const RESOURCE_LINKS = {
     label: "Model & Data",
     href: "https://huggingface.co/OpenWAM",
   },
+  /* The RoboDojo-facing port of the policy, maintained in XPolicyLab
+     alongside the other manipulation policies it is benchmarked against.
+     It carries the batched inference the official checkpoint does not. */
+  xPolicyLab: {
+    label: "XPolicyLab",
+    href: "https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/OpenWAM",
+  },
 } as const;
 
 export type ResourceLink = {

@@ -71,6 +71,15 @@ export const RESOURCE_BUTTONS = [
     // White doesn't read on yellow — use a near-black text + dark icon.
     text: "#181717",
   },
+  {
+    link: RESOURCE_LINKS.xPolicyLab,
+    icon: <GitHubIcon />,
+    // Also a GitHub repository, but a second black pill beside Code would
+    // read as one button split in two, so it takes the page's own accent.
+    bg: "#10a37f",
+    bgHover: "#0d8568",
+    text: "#ffffff",
+  },
 ] as const;
 
 const PILL_BASE =
