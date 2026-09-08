@@ -74,10 +74,10 @@ export const RESOURCE_BUTTONS = [
   {
     link: RESOURCE_LINKS.xPolicyLab,
     icon: <GitHubIcon />,
-    // Also a GitHub repository, but a second black pill beside Code would
-    // read as one button split in two, so it takes the page's own accent.
-    bg: "#10a37f",
-    bgHover: "#0d8568",
+    // XPolicyLab's own wordmark blue. Also a GitHub repository, but a second
+    // black pill beside Code would read as one button split in two.
+    bg: "#3079f0",
+    bgHover: "#1f63d6",
     text: "#ffffff",
   },
 ] as const;
