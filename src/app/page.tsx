@@ -4,6 +4,7 @@ import type { CSSProperties } from "react";
 import HeroSplash from "@/components/HeroSplash";
 import ResourceButtons from "@/components/ResourceButtons";
 import Acknowledgements from "@/components/Acknowledgements";
+import CitationBlock from "@/components/CitationBlock";
 import OverviewVideo from "@/components/OverviewVideo";
 import RolloutGallery from "@/components/RolloutGallery";
 import PerformanceRadar from "@/components/PerformanceRadar";
@@ -16,6 +17,7 @@ import {
   AFFILIATIONS,
   AUTHORS,
   AUTHOR_NOTES,
+  BIBTEX,
   FINDINGS,
   HEADLINE_STATS,
   PAPER_NAME,
@@ -469,13 +471,9 @@ export default function HomePage() {
           <h2 className="text-center text-[13px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
             Citation
           </h2>
-          {/* Deliberately not a BibTeX block. There is no preprint and no
-              proceedings entry yet, so any key, venue or year printed here
-              would be made up. */}
-          <p className="mt-5 text-center text-[15px] leading-relaxed text-foreground/75">
-            <span className="font-mono text-foreground">TBD</span>
-            . A citation will be added here once the preprint is up.
-          </p>
+          <div className="mt-6">
+            <CitationBlock bibtex={BIBTEX} />
+          </div>
         </div>
       </section>
     </div>

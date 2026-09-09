@@ -233,11 +233,14 @@ export const PARTNERS = [
   },
 ] as const;
 
-/* No BibTeX yet: the paper is not on arXiv and has no proceedings entry, so
- * anything printed here would be invented. Replace this with the real entry
- * once there is one — and drop the pending flag on RESOURCE_LINKS.arxiv at the
- * same time. */
-export const CITATION_PENDING = true;
+/* Keep this byte-identical with assets/bib/openwam.txt on the personal site
+ * and the Citation block in the code repo's README — one entry, three homes. */
+export const BIBTEX = `@article{wang2026openwam,
+  title   = {OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining},
+  author  = {Yuran Wang and Siqiao Huang and Mingleyang Li and Chenhao Zhang and Jiaqi Liang and Weiyang Jin and Yue Chen and Xuemin Chi and Donghao Zhou and Qize Yu and Yu-Kai Wang and Yuhan Rui and Shenzhe Yao and Zhen Yuan and Zhenhao Shen and Kefei Zhu and Zijie Zhu and Ning Gao and Xiaowei Chi and Guanqi He and Shanghang Zhang and Hao Dong and Lin Shao and Hang Zhao},
+  year    = {2026},
+  journal = {arXiv preprint arXiv: 2609.07398}
+}`;
 
 /* Where the rollout clips are served from.
  *

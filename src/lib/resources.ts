@@ -5,11 +5,7 @@ export const RESOURCE_LINKS = {
   },
   arxiv: {
     label: "arXiv",
-    /* Paper is not on arXiv yet. `pending` renders the button dimmed and
-       non-clickable instead of linking somewhere broken. Drop the flag and
-       fill in `href` once the preprint is up. */
-    href: "",
-    pending: true,
+    href: "https://arxiv.org/abs/2609.07398",
   },
   huggingFace: {
     label: "Model & Data",
