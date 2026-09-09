@@ -1,0 +1,38 @@
+<!doctype html>
+<!--
+  The arXiv submission carries the project-page URL with a stray trailing
+  semicolon, so readers arrive at /; rather than /. That is a real path
+  segment, not punctuation the server strips, and it would otherwise 404.
+  This sends them on to the front page. Safe to delete once no published
+  version of the paper points here any more.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>OpenWAM</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="https://openwam-official.github.io/" />
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      location.replace("/" + location.search + location.hash);
+    </script>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font: 400 15px/1.6 ui-sans-serif, system-ui, -apple-system, sans-serif;
+        color: #3a3f47;
+        background: #fff;
+      }
+      a { color: #527eea; }
+      @media (prefers-color-scheme: dark) {
+        body { color: #c2c7ce; background: #0c0d10; }
+      }
+    </style>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/">openwam-official.github.io</a>…</p>
+  </body>
+</html>
